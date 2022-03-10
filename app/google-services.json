@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "67889280946",
+    "firebase_url": "https://tp3restaurantes-default-rtdb.firebaseio.com",
+    "project_id": "tp3restaurantes",
+    "storage_bucket": "tp3restaurantes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67889280946:android:87b1503554c44cac6256ab",
+        "android_client_info": {
+          "package_name": "com.infnet.tp3restaurantes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "67889280946-70jkpst61i7b2mvcb4vusq7lup6n8443.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2v1_3eRvZFMKCp6VMgHsh-3Ehe1S45Z0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "67889280946-70jkpst61i7b2mvcb4vusq7lup6n8443.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

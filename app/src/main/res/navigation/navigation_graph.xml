@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/userReviewsFragment"
+        android:name="com.infnet.tp3restaurantes.viewModel.ReviewsFragment"
+        android:label="user_reviews_fragment"
+        tools:layout="@layout/user_reviews_fragment" />
+    <fragment
+        android:id="@+id/createReview"
+        android:name="com.infnet.tp3restaurantes.viewModel.ReviewFragment"
+        android:label="create_review"
+        tools:layout="@layout/review_fragment" />
+    <fragment
+        android:id="@+id/allReviewsFragment"
+        android:name="com.infnet.tp3restaurantes.viewModel.AllReviewsFragment"
+        android:label="all_reviews_fragment"
+        tools:layout="@layout/all_reviews_fragment" />
+    <fragment
+        android:id="@+id/signupFragment"
+        android:name="com.infnet.tp3restaurantes.viewModel.NewUserFragment"
+        android:label="signup_fragment"
+        tools:layout="@layout/new_user_fragment" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.infnet.tp3restaurantes.viewModel.LoginFragment"
+        android:label="login_fragment"
+        tools:layout="@layout/login_fragment" />
+</navigation>
